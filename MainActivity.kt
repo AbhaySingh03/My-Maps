@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
-
+   // This is the Floting action bar at the bottom
      fabCreateMap.setOnClickListener(){
          Log.i(TAG,"Tap on Fab")
         val intent = Intent(this@MainActivity,CreateMapActivity::class.java)
